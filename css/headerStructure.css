@@ -1,0 +1,27 @@
+header{
+    background:#B31F18;
+    position: relative;
+    left: -10px;
+    top: -8px;
+    height: 106px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 100%;
+}
+.mini-menu{
+    border: 1px solid black;
+    height: 30px;
+    grid-column: 1 / span 6;
+    text-align: right;
+}
+header h1{
+    border: 1px solid black;
+    grid-column: 1 / span 2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+header ul{
+    border: 1px solid black;
+    grid-column: span 4;
+}
