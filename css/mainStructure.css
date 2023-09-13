@@ -1,8 +1,5 @@
 main{
     background: yellow;
-    position: relative;
-    min-width: 609px;
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -12,6 +9,8 @@ main div:nth-child(1)/* video */
     border: 1px solid black;
     height: 850px;
     grid-column: 1/ span 2;
+    width: 50px;
+    justify-self: center;
 }
 main div:nth-child(2) /*The campaign for miami university*/
 {
