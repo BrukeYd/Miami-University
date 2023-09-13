@@ -9,7 +9,7 @@ main div:nth-child(1)/* video */
     border: 1px solid black;
     height: 850px;
     grid-column: 1/ span 2;
-    width: 50px;
+    width: 100%;
     justify-self: center;
 }
 main div:nth-child(2) /*The campaign for miami university*/

@@ -15,8 +15,6 @@ header h1{
     border: 1px solid black;
     text-align: center;
     width: 100%;
-    justify-self: end;
-
 }
 header ul{
     border: 1px solid black;
