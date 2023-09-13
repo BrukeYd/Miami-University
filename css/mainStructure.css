@@ -17,8 +17,9 @@ main div:nth-child(2) /*The campaign for miami university*/
     background: white;
     border: 1px solid black;
     grid-column: 1/ span 2;
-    
-    max-width: 1218px;
+    width: 1218px;
+    height: 500px;
+    min-width: 609px;
     justify-self: center;
 }
 main div:nth-child(3) /* img 1 */
@@ -26,8 +27,8 @@ main div:nth-child(3) /* img 1 */
     background: white;
     border: 1px solid black;
     justify-self: right;
-    max-width: 609px;
-    min-width: 609px;
+    width: 609px;
+    height: 500px;
 }
 main div:nth-child(4) /* their promise */
 {
@@ -35,7 +36,8 @@ main div:nth-child(4) /* their promise */
     border: 1px solid black;
     margin-right: 170px;
     justify-self: left;
-    max-width: 609px;
+    width: 609px;
+    height: 500px;
 }
 main div:nth-child(5) /*Four cornerstones for the future DOUBLE*/
 {
@@ -44,50 +46,55 @@ main div:nth-child(5) /*Four cornerstones for the future DOUBLE*/
     grid-column: span 2;
     margin-left: 170px;
     margin-right: 170px;
+    height: 500px;
 }
 main div:nth-child(6)/*WIDE IMAGE */
 {
     background: white;
     border: 1px solid black;
+    height: 600px;
 }
 main div:nth-child(7)/* Scholar WIDE*/
 {
     background: white;
     border: 1px solid black;
-    
+    height: 600px;
 }
 main div:nth-child(8)/*Business and Enterpreneurship WIDE*/
 {
     background: white;
     border: 1px solid black;
+    height: 600px;
 }
 main div:nth-child(9) /* IMG WIDE*/
 {
     background: white;
     border: 1px solid black;
-    
+    height: 600px;
 }
 main div:nth-child(10)/* IMG WIDE */
 {
     background: white;
     border: 1px solid black;
+    height: 600px;
 }
 main div:nth-child(11) /* Clinical health Science WIDE*/
 {
     background: white;
     border: 1px solid black;
-    
+    height: 600px;
 }
 main div:nth-child(12)/* Digital innovation and technology WIDE*/
 {
     background: white;
     border: 1px solid black;
+    height: 600px;
 }
 main div:nth-child(13) /* IMG WIDE */
 {
     background: white;
     border: 1px solid black;
-    /*height: 850px;*/
+    height: 600px;
 }
 main div:nth-child(14)/* END MESSAGE */
 {
@@ -95,4 +102,7 @@ main div:nth-child(14)/* END MESSAGE */
     border: 1px solid black;
     grid-column: span 2;
     justify-self: center;
+    height: 200px;
+    text-align: center;
+    width: 1218px;
 }

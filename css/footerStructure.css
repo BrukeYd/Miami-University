@@ -1,8 +1,8 @@
 footer{
-    background: #B31F18;
+    background: #CF181F;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-
+    height: 430px;
 }
 footer div:nth-child(1)
 {
