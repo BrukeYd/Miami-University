@@ -1,16 +1,52 @@
 header{
-    background:#CF181F;
+    background:whitesmoke;
     height: 106px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-header ul:nth-child(1){
-    border: 1px solid black;
-    justify-self: stretch;
-    height: 100%;
+header div:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    font-size: 12px;
+    grid-column: 1 / span 5;
+    height: 30px;
+    color: aliceblue;
+    background: #CF181F;    
 }
-header h1{
-    border: 1px solid black;
+header div:nth-child(1) p:nth-child(1){
+    grid-column: 11 / span 2;
+    text-align: right;
+}
+header div:nth-child(1) p:nth-child(2){
+    grid-column: span 2;
+    text-align: right;
+    padding-right: 25px;
+}
+header div:nth-child(1) p:nth-child(3){
+    grid-column: span 2;
+    text-align: right;
+    padding-right: 25px;
+}
+header div:nth-child(1) p:nth-child(4){
+    text-align: left;
+    padding-left: 5px;
+}
+header div:nth-child(1) p:nth-child(5){
+    text-align: right;
+    padding-right: 5px;
+}
+header div:nth-child(2){
+    grid-column: span 2;
+    text-align: center;
+    
+}
+header div:nth-child(3){
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    font-size: 15px;
+    font-weight: bolder;
 }
