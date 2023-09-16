@@ -6,8 +6,7 @@ main{
 main div:nth-child(1)/* video */
 {
     background: white;
-    border: 1px solid black;
-    height: 850px;
+    height: 879px;
     grid-column: 1/ span 2;
     width: 100%;
     justify-self: center;
