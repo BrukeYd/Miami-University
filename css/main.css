@@ -61,3 +61,13 @@ video{
     width: 100%;
     height: 100%;
 }
+.img-description img{
+    margin-top: 70px;
+
+}
+.img-description{
+    padding-left:70px;
+}
+.img-description p{
+    width: 550px;
+}
