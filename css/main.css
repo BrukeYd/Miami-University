@@ -23,32 +23,41 @@ video{
 
 /*2ND DIV*/
 
-.about h2{
+.descriptions h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     color: #D14049;
     font-size: xx-large;
-    padding-left: 15px;
+    padding-left: 35px;
     padding-top: 50px;
 }
-.about p{
-    padding-left: 15px;
+.descriptions p{
+    padding-left: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 10px ;
 }
-.about button{
+.descriptions button, .layout-container div:nth-child(4)>button{
     margin-top: 35px;
-    margin-left: 55px;
+    margin-left: 35px;
     height: 50px;
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: #CF181F;
+    background: #cb1331;
     color: white;
     width: 160px;
     height: 60px;
     font-weight: bold;
     border: none;
-    box-shadow: 2px 2px 0px 0px #CF181F;
+    box-shadow: 2px 2px 0px 0px #cb1331;
     border-right: 5px solid white;
     border-bottom: 5px solid white;
+}
+.layout-container div:nth-child(3)>img{
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.wide-pics img{
+    width: 100%;
+    height: 100%;
 }

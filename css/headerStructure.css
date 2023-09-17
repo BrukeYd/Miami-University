@@ -14,7 +14,7 @@ header div:nth-child(1){
     grid-column: 1 / span 5;
     height: 30px;
     color: aliceblue;
-    background: #CF181F;    
+    background: #cb1331;    
 }
 header div:nth-child(1) p:nth-child(1){
     grid-column: 11 / span 2;
@@ -49,4 +49,16 @@ header div:nth-child(3){
     grid-template-columns: repeat(8, 1fr);
     font-size: 15px;
     font-weight: bolder;
+}
+
+.butt{
+    color: whitesmoke;
+    background: #cb1331;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 45px;
+    border: none;
+    box-shadow: 2px 2px 0px 0px #cb1331;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
 }
