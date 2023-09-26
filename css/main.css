@@ -71,3 +71,29 @@ video{
 .img-description p{
     width: 550px;
 }
+.white-button{
+    background: white;
+    width: 160px;
+    height: 60px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 0px 0px white;
+    border-right: 5px solid #cb1331;
+    border-bottom: 5px solid #cb1331;
+    color: #cb1331;
+}
+.red-button{
+    background: #cb1331;
+    width: 160px;
+    height: 60px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 0px 0px #cb1331;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    color: whitesmoke;
+}

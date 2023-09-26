@@ -9,16 +9,20 @@
     <link rel="stylesheet" href="css/footerStructure.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
     
     <header>
         <div>
-            <p>DONOR IMPACT</p>
-            <p>MIAMIOH.EDU</p>
-            <p>MIAMIALUM.ORG</p>
-            <p>LOGIN</p>
-            <p>CONTACT US</p>
+            <ul id="little-menu">
+                <li>DONOR IMPACT</li>
+                <li>MIAMIOH.EDU</li>
+                <li>MIAMIALUM.ORG</li>
+                <li>LOGIN</li>
+                <li>CONTACT US</li>
+            </ul>
+            <script src="js/events.js"></script>
         </div>
         <div><img src="image/advancement_logo.png" alt="Logo"></div>
         <div>
@@ -28,7 +32,8 @@
             <p>WHERE TO GIVE    </p>
             <p> FOUNDATION</p>
             <p>ABOUT</p>
-            <button class="butt">MAKE A GIFT  ></button>
+            <button class="butt" onmouseover="mouseOver()">MAKE A GIFT  ></button>
+            <script src="js/btn.js"></script>
         </div>
     </header>
 
@@ -49,6 +54,8 @@
             <p>Invest in transforming the future with us.</p>
             <p>We are those who live with Love and Honor. And together, we are those who will.</p>
             <button>ABOUT THE CAMPAIGN</button>
+            <br>
+            <br>
             <hr>
         </div>
         <div>
@@ -84,7 +91,7 @@
                 Scholars program, and Presidential Fellows program will put a Miami degree
                 in reach for more young scholars.
             </P>
-            <button>LEARN MORE</button>
+            <button class="red-button">LEARN MORE</button>
         </div>
         <div class="img-description">
             <img src="image/business_and_entrepreneurshp_icon.png" alt="bsnsIcon">
@@ -98,7 +105,7 @@
                 of business education for socail good, and establishing a center for venture
                 funding, a startup accelerator, and much more.
             </P>
-            <button>LEARN MORE</button>
+            <button class="white-button">LEARN MORE</button>
         </div>
         <div class="wide-pics">
             <img src="image/bsns and enterpru.png" alt="">
@@ -118,7 +125,7 @@
                 and talent all contribute to this transformative potential as Miami leads 
                 forward in the science and practice of healthcare.
             </p>
-            <button>LEARN MORE</button>
+            <button class="red-button">LEARN MORE</button>
         </div>
         <div class="img-description">
             <img src="image/digital_innovation_tech_icon.png" alt="digitalIcon">
@@ -133,7 +140,7 @@
                 shapes our world. This isn't simply a new program, it is a reinvention of 
                 what education can be - and what it will become.
             </p>
-            <button>LEARN MORE</button>
+            <button class="white-button">LEARN MORE</button>
         </div>
         <div  class="wide-pics">
             <img src="image/digital innovation.png" alt="">
@@ -141,6 +148,8 @@
         <div>
             <p>For love. For honor. FOR THOSE WHO WILL.</p>
         </div>
+
+        <script src="js/btn.js"></script>
     </main>
 
     <footer>
@@ -160,5 +169,6 @@
             copyright
         </div>
     </footer>
+
 </body>
 </html>
