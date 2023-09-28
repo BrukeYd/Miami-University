@@ -7,16 +7,26 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+/*little menu*/
 header div:nth-child(1){
-    display: grid;
-    grid-template-columns: repeat(20, 1fr);
     font-size: 12px;
     grid-column: 1 / span 5;
     height: 30px;
     color: aliceblue;
     background: #cb1331;    
 }
-
+/*little menu*/
+header div:nth-child(1) ul{
+    text-align: right;
+    margin-top: 2px;
+    margin-right: 190px;
+}
+/*little menu*/
+header div:nth-child(1) ul>li{
+    display: inline-block;
+    padding: 6px 15px 6px 15px;
+    
+}
 header div:nth-child(2){
     grid-column: span 2;
     text-align: center;
@@ -29,7 +39,15 @@ header div:nth-child(3){
     font-size: 15px;
     font-weight: bolder;
 }
-
+header div:nth-child(3) img{
+    width: 150px;
+    position: relative;
+    text-align: right;
+    height: 90px;
+    width: 50px;
+    top: -20px;
+    display: none;
+}
 .butt{
     color: whitesmoke;
     background: #cb1331;

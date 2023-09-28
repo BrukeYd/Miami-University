@@ -1,5 +1,5 @@
 function mouseOver(){
-    alert('working');
+    //alert('working');
 }
 var windows = document.documentElement.clientWidth ; 
 
