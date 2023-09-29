@@ -2,7 +2,7 @@ header{
     background:whitesmoke;
     height: 106px;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(7,1fr);
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -10,7 +10,7 @@ header{
 /*little menu*/
 header div:nth-child(1){
     font-size: 12px;
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 7;
     height: 30px;
     color: aliceblue;
     background: #cb1331;    
@@ -33,20 +33,32 @@ header div:nth-child(2){
     
 }
 header div:nth-child(3){
-    grid-column: span 3;
+    grid-column: span 4;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     font-size: 15px;
     font-weight: bolder;
 }
-header div:nth-child(3) img{
+header div:nth-child(4)
+{
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-left: 90%;
+    width: 60px;
+    background: #cb1331;
+    position: absolute;
+    text-align: right;
+    box-shadow: 2px 2px 0px 0px orangered;
+}
+header div:nth-child(4) img{
     width: 150px;
     position: relative;
     text-align: right;
     height: 90px;
     width: 50px;
     top: -20px;
-    display: none;
+    ;
 }
 .butt{
     color: whitesmoke;
@@ -58,4 +70,5 @@ header div:nth-child(3) img{
     box-shadow: 2px 2px 0px 0px #cb1331;
     border-right: 5px solid white;
     border-bottom: 5px solid white;
+ 
 }
